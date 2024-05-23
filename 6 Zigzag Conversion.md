@@ -24,6 +24,8 @@ A   L S  I G
 Y A   H R  
 P     I  
 
+**zigzag 是按照Z字型排列。所以可以设置一个变量来代表方向，正的就是往下走，负的就是往上走**  
+**join() make all the items in a tuple into a string**  
 ```
 class Solution(object):
     def convert(self, s, numRows):
