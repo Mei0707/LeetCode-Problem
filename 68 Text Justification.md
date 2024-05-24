@@ -18,11 +18,14 @@ Example 1:
 Input: words = ["This", "is", "an", "example", "of", "text", "justification."], maxWidth = 16  
 Output:  
 [  
-   "This    is    an",
-   "example  of text",
-   "justification.  "
+   "This    is    an",  
+   "example  of text",  
+   "justification.  "  
 ]  
 
+
+**首先要确定每一个word之间要有一个空格。加空格的方式可以用for loop单个单个加进word之间**  
+**python中有一个string.ljust(length, character)方法，因为最后一行需要所有word靠左，可以直接使用这个method**
 
 ```
 class Solution(object):
