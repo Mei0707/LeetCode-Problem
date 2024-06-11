@@ -47,6 +47,11 @@ class Solution(object):
         return res
 
 ```
+**collections.Counter()**  
+**A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.**  
+
+**collections.defaultdict(int)**  
+**Define a defaultdict with default value as int(0)**  
 
 
 
